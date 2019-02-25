@@ -6,6 +6,16 @@ import './registerServiceWorker'
 
 Vue.config.productionTip = false
 
+// 引入插件
+// import './plugins/fa'
+import './plugins/my_component'
+
+// CSS
+import './assets/css/reset.css'
+
+// 数据库
+import './db'
+
 new Vue({
   router,
   store,
